@@ -1,13 +1,16 @@
 # Citi Bike Analysis
+Download Aggregated Data: 
 This analysis will examine data from Citi Bike NYC and display it in 2 interactive dashboards. Python was used to aggregate the monthly datasets from the company then transform or drop columns to help with the analysis. After transformation, the final data frame was loaded to a csv file and pulled into Tableau. Below you will find a description of each dashboard and any insights pulled from the data visualizations.
 
 ## Dashboard 1-Stations Map
+![Dashboard Station Map](Images/Dashboard1.PNG)
 The first dashboard marks the location of the start and end stations maps with stations markers where color and size demonstrate popularity of station. The theme of the dashboard was to be a dark mode. These two maps included in other tiles like the Top 10 Station table for both the start and end station that can be used to filter the map. Other filters included are individual date filter for start and end station and a date filter for both stations. 
 
 
 For the two maps, if you filter between customer and subscriber, for subscribers the south stations of NY are more popular while for regular customers the north stations (around Manhattan) are more popular for both the start and end station. Another observation is the start and end station have similar station popularity as we look at the top 10 stations for both start and end. They both have the same stations name included in their top 10. This information can mean that you want to include more bikes at these stations due to popularity. The last observation is if you look at end stations in New Jersey (ZIP 07302) there are markers there but none in the start station. Due to many people returning bikes here and not taking bikes from these locations to start their trip, these stations could have more bikes than necessary, and we may want to consider a solution to prevent overcrowding whether it be manually reallocating those bikes to other stations.
 
 ## Dashboard 2-Customer
+![Dashboard Customer](Images/Dashboard2.PNG)
 The second dashboard will display and give insight on the business’s customer demographic. The dashboard will display various customer information such as age, gender, and user type against total users and average trip duration. The theme of the dashboard was to use similar colors from the Citi Bike’s logo. 
 
 
