@@ -1,5 +1,5 @@
 # Citi Bike Analysis
-Deploy Dashboard 1: https://public.tableau.com/profile/rebecca.pham1065#!/vizhome/Citi-Bike-Dashboard/Dashboard1-StationsMap
+Deploy Dashboard: https://public.tableau.com/profile/rebecca.pham1065#!/vizhome/Citi-Bike-Dashboard/Dashboard1-StationsMap
 
 This analysis will examine data from Citi Bike NYC and display it in 2 interactive dashboards. Python was used to aggregate the monthly datasets from the company then transform or drop columns to help with the analysis. After transformation, the final data frame was loaded to a csv file and pulled into Tableau. Below you will find a description of each dashboard and any insights pulled from the data visualizations.
 
